@@ -1,3 +1,8 @@
 [user]
 	email = 10465782+nasenov@users.noreply.github.com
 	name = Nikolay Asenov
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPbXvZ6AXOdymLZiwM0SNmA2TMqzxXPYmY8FR+R5A4or
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
