@@ -1,20 +1,20 @@
 [user]
-	name = Nikolay Asenov
-	email = 10465782+nasenov@users.noreply.github.com
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIP2kzmXW0DTpQjC3AIekGRytuMctHcZaYEip7XVh1QmM
+    name = Nikolay Asenov
+    email = 10465782+nasenov@users.noreply.github.com
+    signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIP2kzmXW0DTpQjC3AIekGRytuMctHcZaYEip7XVh1QmM
 [gpg]
-	format = ssh
+    format = ssh
 [commit]
-	gpgsign = true
+    gpgsign = true
 [tag]
-	forceSignAnnotated = true
+    forceSignAnnotated = true
 [format]
-	signoff = true
+    signoff = true
 [core]
-	autocrlf = input
+    autocrlf = input
 [merge]
-	ff = only
+    ff = only
 [pull]
-	rebase = true
+    rebase = true
 [push]
-	autoSetupRemote = true	
+    autoSetupRemote = true
