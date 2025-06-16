@@ -1,0 +1,37 @@
+#!/bin/sh
+
+sudo pacman -Syu --noconfirm
+
+# CLI
+sudo pacman -S --needed --noconfirm base-devel
+sudo pacman -S --needed --noconfirm yay
+sudo pacman -S --needed --noconfirm kubectl
+sudo pacman -S --needed --noconfirm helm
+sudo pacman -S --needed --noconfirm fluxcd
+sudo pacman -S --needed --noconfirm talosctl
+sudo pacman -S --needed --noconfirm sops
+sudo pacman -S --needed --noconfirm terraform
+sudo pacman -S --needed --noconfirm ansible
+sudo pacman -S --needed --noconfirm yamllint
+sudo pacman -S --needed --noconfirm tflint
+sudo pacman -S --needed --noconfirm jdk21-openjdk
+sudo pacman -S --needed --noconfirm go-task
+
+# GUI
+sudo pacman -S --needed --noconfirm obsidian
+sudo pacman -S --needed --noconfirm telegram-desktop
+sudo pacman -S --needed --noconfirm vlc
+sudo pacman -S --needed --noconfirm discord
+sudo pacman -S --needed --noconfirm code
+sudo pacman -S --needed --noconfirm dbeaver
+yay -S --needed --noconfirm --removemake google-chrome
+yay -S --needed --noconfirm --removemake ledger-live-bin
+yay -S --needed --noconfirm --removemake intellij-idea-ultimate-edition
+yay -S --needed --noconfirm --removemake docker-desktop
+
+# Hacks
+if [ ! -d "$HOME/.oh-my-zsh" ]; then
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
+
+sudo ln -sf "$(which go-task)" /usr/local/bin/task
