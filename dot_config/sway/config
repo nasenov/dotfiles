@@ -5,6 +5,9 @@
 # user config directory
 include $HOME/.config/sway/config.d/*
 
+# Input
+input type:pointer accel_profile flat
+
 # Output
 output "California Institute of Technology 0x1609 Unknown" disable
 output "ASUSTek COMPUTER INC VG27A N7LMQS014829" mode 2560x1440@164.999Hz
