@@ -4,7 +4,7 @@ sudo pacman -Syu --noconfirm
 
 # CLI
 sudo pacman -S --needed --noconfirm base-devel
-sudo pacman -S --needed --noconfirm yay
+sudo pacman -S --needed --noconfirm git
 sudo pacman -S --needed --noconfirm zsh
 sudo pacman -S --needed --noconfirm kubectl
 sudo pacman -S --needed --noconfirm helm
