@@ -17,6 +17,7 @@ sudo pacman -S --needed --noconfirm yamllint
 sudo pacman -S --needed --noconfirm tflint
 sudo pacman -S --needed --noconfirm jdk21-openjdk
 sudo pacman -S --needed --noconfirm go-task
+sudo pacman -S --needed --noconfirm 7zip
 
 # GUI
 sudo pacman -S --needed --noconfirm obsidian
