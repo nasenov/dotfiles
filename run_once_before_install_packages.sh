@@ -3,9 +3,12 @@
 sudo pacman -Syu --noconfirm
 
 # CLI
+sudo pacman -S --needed --noconfirm man-db
 sudo pacman -S --needed --noconfirm base-devel
 sudo pacman -S --needed --noconfirm git
 sudo pacman -S --needed --noconfirm hyprpolkitagent
+sudo pacman -S --needed --noconfirm hyprpaper
+sudo pacman -S --needed --noconfirm hyprpicker
 sudo pacman -S --needed --noconfirm zsh
 sudo pacman -S --needed --noconfirm kubectl
 sudo pacman -S --needed --noconfirm helm
