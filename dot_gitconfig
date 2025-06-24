@@ -12,6 +12,7 @@
     signoff = true
 [core]
     autocrlf = input
+    editor = vim
 [merge]
     ff = only
 [pull]
