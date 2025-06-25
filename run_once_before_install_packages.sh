@@ -9,6 +9,7 @@ sudo pacman -S --needed --noconfirm git
 sudo pacman -S --needed --noconfirm hyprpolkitagent
 sudo pacman -S --needed --noconfirm hyprpaper
 sudo pacman -S --needed --noconfirm hyprpicker
+sudo pacman -S --needed --noconfirm hyprlock
 sudo pacman -S --needed --noconfirm zsh
 sudo pacman -S --needed --noconfirm kubectl
 sudo pacman -S --needed --noconfirm helm
