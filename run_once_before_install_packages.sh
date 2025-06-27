@@ -6,6 +6,7 @@ sudo pacman -Syu --noconfirm
 sudo pacman -S --needed --noconfirm man-db
 sudo pacman -S --needed --noconfirm base-devel
 sudo pacman -S --needed --noconfirm git
+sudo pacman -S --needed --noconfirm ttf-jetbrains-mono-nerd
 sudo pacman -S --needed --noconfirm hyprpolkitagent
 sudo pacman -S --needed --noconfirm hyprpaper
 sudo pacman -S --needed --noconfirm hyprpicker
