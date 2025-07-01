@@ -1,4 +1,5 @@
 {
     "workbench.editor.enablePreview": false,
-    "editor.fontFamily": "JetBrainsMono Nerd Font"
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.formatOnSave": true
 }
