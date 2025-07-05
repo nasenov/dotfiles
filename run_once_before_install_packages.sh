@@ -26,6 +26,7 @@ sudo pacman -S --needed --noconfirm jdk21-openjdk
 sudo pacman -S --needed --noconfirm go-task
 sudo pacman -S --needed --noconfirm 7zip
 sudo pacman -S --needed --noconfirm unzip
+sudo pacman -S --needed --noconfirm openvpn
 
 # GUI
 sudo pacman -S --needed --noconfirm obsidian
