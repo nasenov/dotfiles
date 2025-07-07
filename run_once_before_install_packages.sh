@@ -27,6 +27,7 @@ sudo pacman -S --needed --noconfirm go-task
 sudo pacman -S --needed --noconfirm 7zip
 sudo pacman -S --needed --noconfirm unzip
 sudo pacman -S --needed --noconfirm openvpn
+sudo pacman -S --needed --noconfirm nfs-utils
 
 # GUI
 sudo pacman -S --needed --noconfirm obsidian
