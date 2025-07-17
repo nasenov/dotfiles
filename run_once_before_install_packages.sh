@@ -37,6 +37,8 @@ sudo pacman -S --needed --noconfirm discord
 sudo pacman -S --needed --noconfirm code
 sudo pacman -S --needed --noconfirm dbeaver
 sudo pacman -S --needed --noconfirm libreoffice-fresh
+sudo pacman -S --needed --noconfirm freerdp
+sudo pacman -S --needed --noconfirm remmina
 yay -S --needed --noconfirm --removemake google-chrome
 yay -S --needed --noconfirm --removemake ledger-live-bin
 yay -S --needed --noconfirm --removemake intellij-idea-ultimate-edition
