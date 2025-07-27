@@ -104,3 +104,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export KUBE_EDITOR=vim
+export SOPS_AGE_KEY_FILE=~/.config/sops/age/age.agekey
