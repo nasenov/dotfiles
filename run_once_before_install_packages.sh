@@ -14,6 +14,7 @@ sudo pacman -S --needed --noconfirm hyprlock
 sudo pacman -S --needed --noconfirm hypridle
 sudo pacman -S --needed --noconfirm zsh
 sudo pacman -S --needed --noconfirm kubectl
+sudo pacman -S --needed --noconfirm krew
 sudo pacman -S --needed --noconfirm helm
 sudo pacman -S --needed --noconfirm fluxcd
 sudo pacman -S --needed --noconfirm talosctl
