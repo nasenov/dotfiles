@@ -47,9 +47,4 @@ yay -S --needed --noconfirm --removemake docker-desktop
 
 kubectl krew install browse-pvc
 
-# Hacks
-if [ ! -d "$HOME/.oh-my-zsh" ]; then
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-fi
-
 sudo ln -sf "$(which go-task)" /usr/local/bin/task
