@@ -95,15 +95,33 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-  #  wget
+    ansible
     chezmoi
+    dbeaver-bin
+    discord
+    docker
+    fluxcd
     git
+    go-task
     google-chrome
+    jdk
+    jetbrains.idea-ultimate
+    krew
+    kubectl
+    kubernetes-helm
+    ledger-live-desktop
+    libreoffice
+    nerd-fonts.jetbrains-mono
     obsidian
     oh-my-zsh
+    sops
+    talosctl
     telegram-desktop
+    terraform
+    tflint
     vim
     vscode
+    yamllint
     zsh
   ];
 
