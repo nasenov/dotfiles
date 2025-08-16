@@ -14,6 +14,10 @@
   hardware.bluetooth.enable = true;
   hardware.ledger.enable = true;
 
+  hardware.graphics.enable = true;
+  hardware.nvidia.open = true;
+  services.xserver.videoDrivers = [ "nvidia" ];
+
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
@@ -118,6 +122,7 @@
     nerd-fonts.jetbrains-mono
     obsidian
     oh-my-zsh
+    pciutils
     sops
     talosctl
     telegram-desktop
