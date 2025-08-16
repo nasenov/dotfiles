@@ -10,6 +10,8 @@
       ./hardware-configuration.nix
     ];
 
+  hardware.enableAllFirmware = true;
+  hardware.bluetooth.enable = true;
   hardware.ledger.enable = true;
 
   # Bootloader.
