@@ -90,6 +90,8 @@
 
   environment.systemPackages = with pkgs; [
     ansible
+    bitwarden-cli
+    bws
     chezmoi
     dbeaver-bin
     discord
@@ -100,6 +102,7 @@
     google-chrome
     jdk
     jetbrains.idea-ultimate
+    jq
     krew
     kubectl
     kubernetes-helm
