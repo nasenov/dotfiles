@@ -22,6 +22,7 @@
   boot.loader.systemd-boot.editor = false;
   boot.loader.efi.canTouchEfiVariables = true;
 
+  services.logind.lidSwitch = "ignore";
 
   networking.hostName = "nixos"; # Define your hostname.
 
