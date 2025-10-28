@@ -98,6 +98,9 @@
     discord
     docker
     fluxcd
+    foot
+    foot.terminfo
+    foot.themes
     git
     go-task
     google-chrome
@@ -114,6 +117,7 @@
     obsidian
     oh-my-zsh
     pciutils
+    remmina
     sops
     talosctl
     telegram-desktop
@@ -125,7 +129,11 @@
     zsh
   ];
 
+  programs.foot.enable = true;
+
   programs.zsh.enable = true;
+
+  programs.steam.enable = true;
 
   system.stateVersion = "25.05";
 }
