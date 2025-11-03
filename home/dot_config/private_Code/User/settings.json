@@ -2,5 +2,6 @@
     "workbench.editor.enablePreview": false,
     "editor.fontFamily": "JetBrainsMono Nerd Font",
     "editor.formatOnSave": true,
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false
 }
