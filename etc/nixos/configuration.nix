@@ -133,5 +133,7 @@
 
   programs.zsh.enable = true;
 
+  system.autoUpgrade.enable = true;
+
   system.stateVersion = "25.05";
 }
