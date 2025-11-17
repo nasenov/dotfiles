@@ -117,6 +117,7 @@
     obsidian
     oh-my-zsh
     pciutils
+    rclone
     remmina
     sops
     talosctl
@@ -130,6 +131,8 @@
   ];
 
   programs.foot.enable = true;
+
+  programs.steam.enable = true;
 
   programs.zsh.enable = true;
 
