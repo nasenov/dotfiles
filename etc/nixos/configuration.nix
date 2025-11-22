@@ -116,6 +116,7 @@
     networkmanager
     obsidian
     oh-my-zsh
+    openssl
     pciutils
     rclone
     remmina
