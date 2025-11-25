@@ -81,7 +81,7 @@
   users.users.nasenov = {
     isNormalUser = true;
     description = "Nikolay Asenov";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
     packages = with pkgs; [
       kdePackages.kate
     ];
@@ -97,6 +97,7 @@
     dbeaver-bin
     discord
     docker
+    docker-compose
     fluxcd
     foot
     foot.terminfo
@@ -136,6 +137,8 @@
   programs.steam.enable = true;
 
   programs.zsh.enable = true;
+
+  virtualisation.docker.enable = true;
 
   system.autoUpgrade.enable = true;
 
