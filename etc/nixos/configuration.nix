@@ -96,6 +96,7 @@
     chezmoi
     dbeaver-bin
     discord
+    dnsutils
     docker
     docker-compose
     fluxcd
