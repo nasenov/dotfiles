@@ -106,6 +106,7 @@
     git
     go-task
     google-chrome
+    inetutils
     jdk
     jetbrains.idea-ultimate
     jq
