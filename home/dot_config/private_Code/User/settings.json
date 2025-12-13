@@ -3,5 +3,6 @@
     "editor.fontFamily": "JetBrainsMono Nerd Font",
     "editor.formatOnSave": true,
     "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "git.confirmSync": false
 }
