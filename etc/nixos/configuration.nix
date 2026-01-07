@@ -108,7 +108,7 @@
     google-chrome
     inetutils
     jdk
-    jetbrains.idea-ultimate
+    jetbrains.idea
     jq
     krew
     kubectl
@@ -123,7 +123,6 @@
     pciutils
     rclone
     remmina
-    sops
     talosctl
     telegram-desktop
     terraform
