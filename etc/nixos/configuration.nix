@@ -4,6 +4,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ./virtualisation.nix
     ];
 
   hardware.enableAllFirmware = true;
@@ -81,7 +82,7 @@
   users.users.nasenov = {
     isNormalUser = true;
     description = "Nikolay Asenov";
-    extraGroups = [ "networkmanager" "wheel" "docker" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" "libvirtd" ];
     packages = with pkgs; [
       kdePackages.kate
     ];
@@ -122,7 +123,6 @@
     openssl
     pciutils
     rclone
-    remmina
     talosctl
     telegram-desktop
     terraform
