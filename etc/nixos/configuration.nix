@@ -112,6 +112,7 @@
     jdk
     jetbrains.idea
     jq
+    k9s
     krew
     kubectl
     kubernetes-helm
