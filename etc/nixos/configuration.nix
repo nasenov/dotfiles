@@ -2,7 +2,8 @@
 
 {
   imports =
-    [ # Include the results of the hardware scan.
+    [
+      <nixos-hardware/lenovo/legion/16ach6h/hybrid>
       ./hardware-configuration.nix
       ./nfs.nix
       ./virtualisation.nix
@@ -11,11 +12,7 @@
   hardware.enableAllFirmware = true;
   hardware.bluetooth.enable = true;
   hardware.ledger.enable = true;
-
-  hardware.graphics.enable = true;
-  hardware.nvidia.open = true;
-  hardware.nvidia.powerManagement.enable = true;
-  services.xserver.videoDrivers = [ "nvidia" ];
+  hardware.nvidia.prime.amdgpuBusId = "PCI:6@0:0:0";
 
   networking.networkmanager.enable = true;
 
@@ -126,7 +123,7 @@
     pciutils
     rclone
     talosctl
-    telegram-desktop
+    # telegram-desktop
     terraform
     tflint
     vim
