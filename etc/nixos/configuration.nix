@@ -123,7 +123,7 @@
     pciutils
     rclone
     talosctl
-    # telegram-desktop
+    telegram-desktop
     terraform
     tflint
     vim
