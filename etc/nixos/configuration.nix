@@ -12,7 +12,7 @@
   hardware.enableAllFirmware = true;
   hardware.bluetooth.enable = true;
   hardware.ledger.enable = true;
-  hardware.nvidia.prime.amdgpuBusId = "PCI:6@0:0:0";
+  hardware.nvidia.prime.amdgpuBusId = "PCI:5@0:0:0";
 
   networking.networkmanager.enable = true;
 
