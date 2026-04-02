@@ -103,6 +103,7 @@
     foot.terminfo
     foot.themes
     git
+    go
     go-task
     google-chrome
     inetutils
