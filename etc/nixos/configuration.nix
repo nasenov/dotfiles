@@ -5,7 +5,6 @@
     [
       <nixos-hardware/lenovo/legion/16ach6h/hybrid>
       ./hardware-configuration.nix
-      ./nfs.nix
       ./virtualisation.nix
     ];
 
