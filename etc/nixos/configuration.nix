@@ -115,6 +115,7 @@
     kubernetes-helm
     ledger-live-desktop
     libreoffice
+    mise
     nerd-fonts.jetbrains-mono
     networkmanager
     obsidian
