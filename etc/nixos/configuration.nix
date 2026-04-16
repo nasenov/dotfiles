@@ -105,6 +105,7 @@
     go
     go-task
     google-chrome
+    helmfile
     inetutils
     jdk
     jetbrains.idea
@@ -130,6 +131,7 @@
     vim
     vscode
     yamllint
+    yq-go
     zsh
   ];
 
