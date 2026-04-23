@@ -4,5 +4,6 @@
     "editor.formatOnSave": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "yaml.format.printWidth": 180
 }
