@@ -72,7 +72,7 @@
     # no need to redefine it in your config for now)
     #media-session.enable = true;
   };
-  
+
   users.defaultUserShell = pkgs.zsh;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
@@ -88,7 +88,6 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
-    ansible
     bitwarden-cli
     bws
     chezmoi
@@ -110,7 +109,6 @@
     jdk
     jetbrains.idea
     jq
-    k9s
     krew
     kubectl
     kubernetes-helm
@@ -145,5 +143,5 @@
 
   system.autoUpgrade.enable = true;
 
-  system.stateVersion = "25.05";
+  system.stateVersion = "25.11";
 }
