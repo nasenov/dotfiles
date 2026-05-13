@@ -1,12 +1,11 @@
 { config, pkgs, ... }:
-
 {
-  imports =
-    [
-      <nixos-hardware/lenovo/legion/16ach6h/hybrid>
-      ./hardware-configuration.nix
-      ./virtualisation.nix
-    ];
+  imports = [
+    <nixos-hardware/lenovo/legion/16ach6h/hybrid>
+    ./hardware-configuration.nix
+    ./nix.nix
+    ./virtualisation.nix
+  ];
 
   hardware.enableAllFirmware = true;
   hardware.bluetooth.enable = true;
@@ -79,7 +78,12 @@
   users.users.nasenov = {
     isNormalUser = true;
     description = "Nikolay Asenov";
-    extraGroups = [ "networkmanager" "wheel" "docker" "libvirtd" ];
+    extraGroups = [
+      "networkmanager"
+      "wheel"
+      "docker"
+      "libvirtd"
+    ];
     packages = with pkgs; [
       kdePackages.kate
     ];

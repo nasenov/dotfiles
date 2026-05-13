@@ -6,5 +6,6 @@
     "explorer.confirmDragAndDrop": false,
     "git.confirmSync": false,
     "yaml.format.printWidth": 180,
-    "yaml.format.bracketSpacing": false
+    "yaml.format.bracketSpacing": false,
+    "nix.enableLanguageServer": true
 }
