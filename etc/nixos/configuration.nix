@@ -21,7 +21,7 @@
 
   services.logind.settings.Login.HandleLidSwitch = "ignore";
 
-  networking.hostName = "nixos"; # Define your hostname.
+  networking.hostName = "laptop";
 
   # Set your time zone.
   time.timeZone = "Europe/Sofia";
