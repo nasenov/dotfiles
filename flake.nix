@@ -1,15 +1,19 @@
 {
-  description = "A very basic flake";
+  description = "nasenov's NixOS configuration";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+    nixos-hardware.url = "github:nixos/nixos-hardware?ref=master";
   };
 
-  outputs = { self, nixpkgs }: {
-
-    packages.x86_64-linux.hello = nixpkgs.legacyPackages.x86_64-linux.hello;
-
-    packages.x86_64-linux.default = self.packages.x86_64-linux.hello;
-
-  };
+  outputs =
+    { nixpkgs, nixos-hardware, ... }:
+    {
+      nixosConfigurations.laptop = nixpkgs.lib.nixosSystem {
+        modules = [
+          ./etc/nixos/configuration.nix
+          nixos-hardware.nixosModules.lenovo-legion-16ach6h-hybrid
+        ];
+      };
+    };
 }
