@@ -2,8 +2,8 @@
 {
   imports = [
     ./hardware-configuration.nix
-    ./nix.nix
-    ./virtualisation.nix
+    ../nix.nix
+    ../virtualisation.nix
   ];
 
   hardware.enableAllFirmware = true;

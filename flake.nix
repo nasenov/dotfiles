@@ -11,7 +11,7 @@
     {
       nixosConfigurations.laptop = nixpkgs.lib.nixosSystem {
         modules = [
-          ./etc/nixos/configuration.nix
+          ./etc/nixos/laptop/configuration.nix
           nixos-hardware.nixosModules.lenovo-legion-16ach6h-hybrid
         ];
       };
