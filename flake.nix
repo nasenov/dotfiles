@@ -12,12 +12,12 @@
       nixosConfigurations = {
         desktop = nixpkgs.lib.nixosSystem {
           modules = [
-            ./etc/nixos/desktop/configuration.nix
+            ./hosts/desktop/configuration.nix
           ];
         };
         laptop = nixpkgs.lib.nixosSystem {
           modules = [
-            ./etc/nixos/laptop/configuration.nix
+            ./hosts/laptop/configuration.nix
             nixos-hardware.nixosModules.lenovo-legion-16ach6h-hybrid
           ];
         };

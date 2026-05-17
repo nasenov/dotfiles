@@ -2,7 +2,8 @@
 {
   imports = [
     ./hardware-configuration.nix
-    ../gaming.nix
+    ../../modules/gaming.nix
+    ../../modules/nix.nix
   ];
 
   hardware.enableAllFirmware = true;
