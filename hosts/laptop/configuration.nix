@@ -2,6 +2,7 @@
 {
   imports = [
     ./hardware-configuration.nix
+    ../../modules/crypto.nix
     ../../modules/docker.nix
     ../../modules/gaming.nix
     ../../modules/nix.nix
@@ -10,7 +11,6 @@
 
   hardware.enableAllFirmware = true;
   hardware.bluetooth.enable = true;
-  hardware.ledger.enable = true;
   hardware.nvidia.prime.amdgpuBusId = "PCI:5@0:0:0";
 
   networking.networkmanager.enable = true;
@@ -112,7 +112,6 @@
     krew
     kubectl
     kubernetes-helm
-    ledger-live-desktop
     libreoffice
     mise
     nerd-fonts.jetbrains-mono

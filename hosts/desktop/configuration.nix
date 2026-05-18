@@ -2,13 +2,13 @@
 {
   imports = [
     ./hardware-configuration.nix
+    ../../modules/crypto.nix
     ../../modules/docker.nix
     ../../modules/gaming.nix
     ../../modules/nix.nix
   ];
 
   hardware.enableAllFirmware = true;
-  hardware.ledger.enable = true;
 
   boot.plymouth.enable = true;
   boot.loader.systemd-boot.enable = true;
@@ -108,7 +108,6 @@
     krew
     kubectl
     kubernetes-helm
-    ledger-live-desktop
     libreoffice
     mise
     nerd-fonts.jetbrains-mono
