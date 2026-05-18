@@ -96,7 +96,6 @@
     bws
     chezmoi
     dbeaver-bin
-    discord
     dnsutils
     fluxcd
     foot
