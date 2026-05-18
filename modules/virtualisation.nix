@@ -9,4 +9,6 @@
   };
 
   programs.virt-manager.enable = true;
+
+  users.users.nasenov.extraGroups = [ "libvirtd" ];
 }
