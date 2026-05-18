@@ -3,6 +3,7 @@
   imports = [
     ./hardware-configuration.nix
     ../../modules/docker.nix
+    ../../modules/gaming.nix
     ../../modules/nix.nix
     ../../modules/virtualisation.nix
   ];
@@ -135,8 +136,6 @@
   ];
 
   programs.foot.enable = true;
-
-  programs.steam.enable = true;
 
   programs.zsh.enable = true;
 
