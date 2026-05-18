@@ -11,7 +11,6 @@
 
   hardware.enableAllFirmware = true;
   hardware.bluetooth.enable = true;
-  hardware.nvidia.prime.amdgpuBusId = "PCI:5@0:0:0";
 
   networking.networkmanager.enable = true;
 
