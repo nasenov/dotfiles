@@ -2,6 +2,7 @@
 {
   imports = [
     ./hardware-configuration.nix
+    ../../modules/docker.nix
     ../../modules/gaming.nix
     ../../modules/nix.nix
   ];
@@ -77,7 +78,6 @@
     extraGroups = [
       "networkmanager"
       "wheel"
-      "docker"
       "libvirtd"
     ];
     packages = with pkgs; [
@@ -94,8 +94,6 @@
     dbeaver-bin
     discord
     dnsutils
-    docker
-    docker-compose
     fluxcd
     foot
     foot.terminfo
@@ -136,8 +134,6 @@
   programs.foot.enable = true;
 
   programs.zsh.enable = true;
-
-  virtualisation.docker.enable = true;
 
   system.autoUpgrade.enable = true;
 
