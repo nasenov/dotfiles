@@ -4,4 +4,9 @@
     nixd
     nixfmt
   ];
+
+  nix.settings.experimental-features = [
+    "nix-command"
+    "flakes"
+  ];
 }
