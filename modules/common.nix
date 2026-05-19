@@ -66,19 +66,14 @@
     chezmoi
     dbeaver-bin
     dnsutils
-    fluxcd
     git
     go
     go-task
     google-chrome
-    helmfile
     inetutils
     jdk
     jetbrains.idea
     jq
-    krew
-    kubectl
-    kubernetes-helm
     libreoffice
     mise
     nerd-fonts.jetbrains-mono
@@ -87,7 +82,6 @@
     openssl
     pciutils
     rclone
-    talosctl
     telegram-desktop
     terraform
     tflint
