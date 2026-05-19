@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ ... }:
 {
   hardware.enableAllFirmware = true;
 
@@ -54,13 +54,6 @@
   };
 
   nixpkgs.config.allowUnfree = true;
-
-  environment.systemPackages = with pkgs; [
-    google-chrome
-    libreoffice
-    obsidian
-    telegram-desktop
-  ];
 
   system.stateVersion = "25.11";
 }
