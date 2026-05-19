@@ -71,8 +71,6 @@
     go-task
     google-chrome
     inetutils
-    jdk
-    jetbrains.idea
     jq
     libreoffice
     mise
