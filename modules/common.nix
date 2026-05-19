@@ -83,8 +83,6 @@
     pciutils
     rclone
     telegram-desktop
-    terraform
-    tflint
     vim
     vscode
     yamllint

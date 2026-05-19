@@ -9,6 +9,7 @@
     ../../modules/kubernetes.nix
     ../../modules/nix.nix
     ../../modules/terminal.nix
+    ../../modules/terraform.nix
   ];
 
   networking.hostName = "desktop";
