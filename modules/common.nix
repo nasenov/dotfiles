@@ -44,8 +44,6 @@
 
   networking.networkmanager.enable = true;
 
-  users.defaultUserShell = pkgs.zsh;
-
   users.users.nasenov = {
     isNormalUser = true;
     description = "Nikolay Asenov";
@@ -76,7 +74,6 @@
     mise
     nerd-fonts.jetbrains-mono
     obsidian
-    oh-my-zsh
     openssl
     pciutils
     rclone
@@ -85,10 +82,7 @@
     vscode
     yamllint
     yq-go
-    zsh
   ];
-
-  programs.zsh.enable = true;
 
   system.stateVersion = "25.11";
 }
