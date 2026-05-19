@@ -51,9 +51,6 @@
       "networkmanager"
       "wheel"
     ];
-    packages = with pkgs; [
-      kdePackages.kate
-    ];
   };
 
   nixpkgs.config.allowUnfree = true;
