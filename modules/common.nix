@@ -59,29 +59,10 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
-    bitwarden-cli
-    bws
-    chezmoi
-    dbeaver-bin
-    dnsutils
-    git
-    go
-    go-task
     google-chrome
-    inetutils
-    jq
     libreoffice
-    mise
-    nerd-fonts.jetbrains-mono
     obsidian
-    openssl
-    pciutils
-    rclone
     telegram-desktop
-    vim
-    vscode
-    yamllint
-    yq-go
   ];
 
   system.stateVersion = "25.11";
