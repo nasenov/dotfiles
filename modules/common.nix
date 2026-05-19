@@ -67,9 +67,6 @@
     dbeaver-bin
     dnsutils
     fluxcd
-    foot
-    foot.terminfo
-    foot.themes
     git
     go
     go-task
@@ -100,8 +97,6 @@
     yq-go
     zsh
   ];
-
-  programs.foot.enable = true;
 
   programs.zsh.enable = true;
 

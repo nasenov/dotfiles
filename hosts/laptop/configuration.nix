@@ -7,6 +7,7 @@
     ../../modules/docker.nix
     ../../modules/gaming.nix
     ../../modules/nix.nix
+    ../../modules/terminal.nix
     ../../modules/virtualisation.nix
   ];
 
