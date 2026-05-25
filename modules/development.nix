@@ -11,6 +11,7 @@
     go-task
     inetutils
     jq
+    just
     mise
     nerd-fonts.jetbrains-mono
     openssl
