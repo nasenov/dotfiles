@@ -12,6 +12,7 @@
     inetutils
     jq
     just
+    just-lsp
     mise
     nerd-fonts.jetbrains-mono
     openssl
