@@ -9,6 +9,7 @@
     git
     go
     go-task
+    gum
     inetutils
     jq
     just
