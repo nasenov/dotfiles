@@ -16,6 +16,7 @@
     mise
     nerd-fonts.jetbrains-mono
     openssl
+    oxfmt
     pciutils
     rclone
     vim

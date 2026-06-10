@@ -1,11 +1,27 @@
 {
-    "workbench.editor.enablePreview": false,
-    "editor.fontFamily": "JetBrainsMono Nerd Font",
-    "editor.formatOnSave": true,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "git.confirmSync": false,
-    "yaml.format.printWidth": 180,
-    "yaml.format.bracketSpacing": false,
-    "nix.enableLanguageServer": true
+  "workbench.editor.enablePreview": false,
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.confirmSync": false,
+  "nix.enableLanguageServer": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[json5]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[just]": {
+    "editor.defaultFormatter": "nefrob.vscode-just-syntax"
+  }
 }
