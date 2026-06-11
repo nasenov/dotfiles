@@ -8,6 +8,7 @@
     ../../modules/development.nix
     ../../modules/docker.nix
     ../../modules/gaming.nix
+    ../../modules/java.nix
     ../../modules/javascript.nix
     ../../modules/kubernetes.nix
     ../../modules/nix.nix
