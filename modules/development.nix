@@ -2,6 +2,7 @@
 {
   environment.systemPackages = with pkgs; [
     bitwarden-cli
+    bruno
     btop
     bws
     chezmoi
