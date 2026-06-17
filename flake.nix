@@ -2,7 +2,7 @@
   description = "nasenov's NixOS configuration";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs?ref=master";
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
     nixos-hardware.url = "github:nixos/nixos-hardware?ref=master";
   };
 
