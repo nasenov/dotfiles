@@ -17,5 +17,7 @@
     enableRenice = true;
   };
 
+  programs.gamescope.enable = true;
+
   users.users.nasenov.extraGroups = [ "gamemode" ];
 }
