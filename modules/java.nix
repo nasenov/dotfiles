@@ -7,9 +7,8 @@
     jetbrains.idea
   ];
 
-  programs.java = {
-    enable = true;
-    package = pkgs.graalvmPackages.graalvm-ce;
+  environment.variables = with pkgs; {
+    JAVA_HOME = jdk25.home;
+    GRAALVM_HOME = graalvmPackages.graalvm-ce.home;
   };
-
 }
