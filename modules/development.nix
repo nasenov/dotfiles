@@ -6,7 +6,6 @@
     btop
     bws
     chezmoi
-    code-cursor
     dbeaver-bin
     dnsutils
     git
