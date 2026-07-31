@@ -23,10 +23,19 @@
       "commitMessageExtra": "({{currentDigestShort}} ➔ {{newDigestShort}})"
     },
     {
+      "matchManagers": ["nix"],
+      "matchUpdateTypes": ["lockFileMaintenance"],
+      "commitMessageAction": "bump flake.lock"
+    },
+    {
       "matchManagers": ["github-actions"],
       "semanticCommitType": "ci",
       "semanticCommitScope": "github-action",
       "commitMessageTopic": "action {{depName}}"
+    },
+    {
+      "matchManagers": ["nix"],
+      "semanticCommitScope": "nix"
     }
   ]
 }
