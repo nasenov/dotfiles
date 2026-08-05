@@ -3,6 +3,7 @@
   imports = [
     ./hardware-configuration.nix
     ../../modules/apps.nix
+    ../../modules/browser.nix
     ../../modules/common.nix
     ../../modules/crypto.nix
     ../../modules/development.nix
