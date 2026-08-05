@@ -12,6 +12,7 @@
     defaultSearchProviderSuggestURL = "https://google.com/complete/search?output=chrome&q={searchTerms}";
     extraOpts = {
       "PasswordManagerEnabled" = false;
+      "BraveAIChatEnabled" = false;
       "BraveRewardsDisabled" = true;
       "BraveWalletDisabled" = true;
     };
