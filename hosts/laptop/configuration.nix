@@ -8,7 +8,6 @@
     ../../modules/common.nix
     ../../modules/crypto.nix
     ../../modules/development.nix
-    ../../modules/docker.nix
     ../../modules/gaming.nix
     ../../modules/java.nix
     ../../modules/javascript.nix

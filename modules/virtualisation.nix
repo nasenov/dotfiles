@@ -1,5 +1,10 @@
 { ... }:
 {
+  virtualisation.docker.rootless = {
+    enable = true;
+    setSocketVariable = true;
+  };
+
   virtualisation.libvirtd = {
     enable = true;
 
@@ -10,5 +15,8 @@
 
   programs.virt-manager.enable = true;
 
-  users.users.nasenov.extraGroups = [ "libvirtd" ];
+  users.users.nasenov = {
+    linger = true;
+    extraGroups = [ "libvirtd" ];
+  };
 }
