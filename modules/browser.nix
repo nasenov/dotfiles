@@ -2,7 +2,6 @@
 {
   environment.systemPackages = with pkgs; [
     brave
-    google-chrome
   ];
 
   programs.chromium = {
