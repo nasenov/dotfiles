@@ -20,6 +20,7 @@
     oxfmt
     pciutils
     rclone
+    usage
     vim
     vscode
     yamllint

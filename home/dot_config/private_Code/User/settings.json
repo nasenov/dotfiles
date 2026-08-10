@@ -6,6 +6,8 @@
   "explorer.confirmDragAndDrop": false,
   "git.confirmSync": false,
   "nix.enableLanguageServer": true,
+  "mise.binPath": "/run/current-system/sw/bin/mise",
+  "mise.checkForNewMiseVersion": false,
   "[yaml]": {
     "editor.defaultFormatter": "oxc.oxc-vscode"
   },
