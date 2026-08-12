@@ -5,5 +5,6 @@
     obsidian
     remmina
     telegram-desktop
+    vlc
   ];
 }
