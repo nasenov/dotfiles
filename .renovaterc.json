@@ -8,15 +8,12 @@
     ":automergeBranch",
     ":disableRateLimiting",
     ":dependencyDashboard",
+    ":maintainLockFilesWeekly",
     ":semanticCommits",
     ":timezone(Europe/Sofia)"
   ],
   "dependencyDashboardTitle": "Renovate Dashboard",
   "nix": {
     "enabled": true
-  },
-  "lockFileMaintenance": {
-    "enabled": true,
-    "schedule": ["at any time"]
   }
 }
