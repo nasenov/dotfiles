@@ -6,5 +6,6 @@
     remmina
     telegram-desktop
     vlc
+    woeusb-ng
   ];
 }
