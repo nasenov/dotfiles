@@ -11,6 +11,7 @@
     git
     go
     inetutils
+    iperf
     jq
     just
     just-lsp
