@@ -18,6 +18,7 @@
     mise
     nerd-fonts.jetbrains-mono
     openssl
+    opentofu
     oxfmt
     pciutils
     rclone
