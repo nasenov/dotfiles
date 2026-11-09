@@ -4,6 +4,7 @@
     libreoffice
     obsidian
     remmina
+    rustdesk
     telegram-desktop
     vlc
     woeusb-ng
