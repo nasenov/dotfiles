@@ -9,6 +9,7 @@
     dbeaver-bin
     dnsutils
     git
+    gh
     go
     inetutils
     iperf
