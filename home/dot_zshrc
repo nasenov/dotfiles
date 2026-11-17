@@ -107,4 +107,5 @@ export EDITOR=vim
 
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
+source $HOME/.claude/.env.sh
 source $HOME/.config/bws/.env.sh
