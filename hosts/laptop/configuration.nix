@@ -2,7 +2,7 @@
 {
   imports = [
     ./hardware-configuration.nix
-    nixos-hardware.nixosModules.lenovo-legion-16ach6h
+    nixos-hardware.nixosModules.lenovo-legion-16ach6h-nvidia
   ];
 
   networking.hostName = "laptop";
