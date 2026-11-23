@@ -7,8 +7,7 @@
 
   networking.hostName = "laptop";
 
-  # S3 (deep) sleep hangs on resume in nvidia-only (DDG) mode
-  boot.kernelParams = [ "mem_sleep_default=s2idle" ];
+  boot.extraModprobeConfig = "options nvidia NVreg_DynamicPowerManagement=0x00";
 
   hardware.bluetooth.enable = true;
 
