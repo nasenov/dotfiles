@@ -22,6 +22,7 @@
     opentofu
     oxfmt
     pciutils
+    python3
     rclone
     usage
     vim
