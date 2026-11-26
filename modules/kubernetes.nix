@@ -6,6 +6,7 @@
     krew
     kubectl
     kubernetes-helm
+    kustomize
     talosctl
   ];
 }
